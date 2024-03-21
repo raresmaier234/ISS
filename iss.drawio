@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T14:48:53.053Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.7" etag="lTn4URv2Ak9abTyEKQkO" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T15:21:39.431Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="-PaFRXfaYo8bJceAfQeA" version="24.0.7" type="github">
   <diagram name="Pagină-1" id="MKnuGG16jQx2wrsOF3L4">
-    <mxGraphModel>
+    <mxGraphModel dx="814" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WBrmRTEskCpEzBv_u94a-4" value="Programatorul&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WBrmRTEskCpEzBv_u94a-5" value="Verificatorul" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WBrmRTEskCpEzBv_u94a-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WBrmRTEskCpEzBv_u94a-18" target="WBrmRTEskCpEzBv_u94a-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WBrmRTEskCpEzBv_u94a-18" value="Rezolvare bug" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WBrmRTEskCpEzBv_u94a-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WBrmRTEskCpEzBv_u94a-38" target="WBrmRTEskCpEzBv_u94a-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WBrmRTEskCpEzBv_u94a-38" value="Adauga bug" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="320" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WBrmRTEskCpEzBv_u94a-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.083;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WBrmRTEskCpEzBv_u94a-5" target="WBrmRTEskCpEzBv_u94a-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WBrmRTEskCpEzBv_u94a-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WBrmRTEskCpEzBv_u94a-42" target="WBrmRTEskCpEzBv_u94a-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WBrmRTEskCpEzBv_u94a-42" value="Lista bug-uri" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="320" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WBrmRTEskCpEzBv_u94a-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.033;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WBrmRTEskCpEzBv_u94a-4" target="WBrmRTEskCpEzBv_u94a-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
